@@ -1,0 +1,23 @@
+.banner {
+  width: 100vw;
+  padding: 20px;
+  background: #ff660050;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 8vw;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.3px;
+  -webkit-text-stroke-color: black;
+
+  cursor: default;
+
+  background-image: url('./public/images/books.jpg');
+  background-size: contain;
+
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
