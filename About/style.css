@@ -1,0 +1,36 @@
+.history,
+.culture,
+.curiosity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100vw;
+  padding: 0 3vw;
+  margin-bottom: 100px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #ff6600;
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: center;
+}
+
+.curiosity {
+  align-items: flex-end;
+}
+
+.history__content {
+  width: 40%;
+}
+
+.culture__content {
+  width: 40%;
+}
+
+.curiosity__content {
+  width: 40%;
+}
