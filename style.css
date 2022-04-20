@@ -2,7 +2,7 @@
   width: 100vw;
   padding: 20px;
   background: #ff660050;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -20,4 +20,36 @@ h1 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+}
+
+.welcome {
+  margin-bottom: 100px;
+}
+
+.advertising {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advertising > P {
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+
+.advertising__button {
+  background-color: #ff8839;
+  padding: 5px;
+  width: fit-content;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.advertising__button:hover {
+  transform: scale(1.1);
+  background-color: #ff6600;
+}
+
+.advertising__button > a {
+  font-size: 1.5em;
 }

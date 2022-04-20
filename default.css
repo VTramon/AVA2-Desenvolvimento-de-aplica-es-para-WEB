@@ -30,6 +30,7 @@ body {
 
 main {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   width: 60vw;
@@ -59,6 +60,23 @@ main {
 
 .header li:hover {
   transform: scale(1.1);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  padding: 20px 10vw;
+  background-color: #ff8839;
+}
+
+.footer__details {
+  width: 40%;
+}
+
+.footer__details a {
+  text-decoration: underline;
 }
 
 .footer__social_medias > ul {
