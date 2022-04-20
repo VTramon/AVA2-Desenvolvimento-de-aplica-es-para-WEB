@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="../default.css">
   <title>Contatos</title>
 </head>
@@ -19,18 +19,53 @@
       <li><a href="../News/index.html">Novidades</a></li>
     </nav>
   </header>
+
+  <main>
+    <address>
+      <p>Tel: <a target="_blank" href="tel:+5521982517599">📱 (21) 98251-7599</a></p>
+      <p>email: <a target="_blank" href="mailto:vitorr.ooliveira@gmail.com">📬
+          vitorr.ooliveira@gmail.com</a></p>
+      <p>LinkedIn: <a target="_blank"
+          href="https://www.linkedin.com/in/vitor-oliveira-543256163">Vitor Ramon</a></p>
+      <p>Twitter: <a target="_blank" href="https://twitter.com/vitorr29">@vitorr29</a></p>
+      <p>GitHub: <a target="_blank" href="https://github.com/VTramon">Vitor Ramon</a></p>
+      <p>Stack Overflow: <a target="_blank"
+          href="https://stackoverflow.com/users/17407230/vitor-ramon">Vitor Ramon</a></p>
+    </address>
+
+    <form class="contact_form" name="contact" method="POST" data-netlify="true">
+      <div>
+        <label for="name">Nome:</label>
+        <input placeholder="Nome" type="text" name="name" id="name">
+      </div>
+
+      <div>
+        <label for="tel">número do celular:</label>
+        <input placeholder="Celular" type="tel" name="tel" id="tel">
+      </div>
+
+      <div>
+        <label for="message">Mensagem:</label>
+        <textarea placeholder="Mensagem" name="message" id="message"></textarea>
+      </div>
+
+      <input class="submit" type="submit">
+    </form>
+  </main>
+
+
   <footer>
     <div class="footer__social_medias">
       <h4>Redes sociais</h4>
       <ul>
         <li><a href="https://twitter.com/vitorr29" target="#blank"><img
-              src="./public/images/socialMedias/Twitter.svg" alt="Twitter"></a></li>
+              src="../public/images/socialMedias/Twitter.svg" alt="Twitter"></a></li>
         <li><a href="https://www.instagram.com/vitorr_rramon/" target="#blank"><img
-              src="./public/images/socialMedias/Instagram.svg" alt="Instagram"></a></li>
+              src="../public/images/socialMedias/Instagram.svg" alt="Instagram"></a></li>
         <li><a href="https://www.linkedin.com/in/vitor-oliveira-543256163/" target="#blank"><img
-              src="./public/images/socialMedias/LinkedIn.svg" alt="LinkedIn"></a></li>
+              src="../public/images/socialMedias/LinkedIn.svg" alt="LinkedIn"></a></li>
         <li><a href="https://github.com/VTramon" target="#blank"><img
-              src="./public/images/socialMedias/GitHub.svg" alt="GitHub"></a></li>
+              src="../public/images/socialMedias/GitHub.svg" alt="GitHub"></a></li>
       </ul>
     </div>
   </footer>
